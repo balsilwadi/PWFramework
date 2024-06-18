@@ -1,0 +1,37 @@
+{
+  "PLP": {
+    "spategory": [
+      {
+        "name": "Cutlery",
+        "url": "/kitchen-and-food/cutlery",
+        "type": "PLP"
+      },
+      {
+        "name": "Coffee, Espresso, & Tea",
+        "url": "/kitchen-and-food/coffee-and-tea",
+        "type": "PLP"
+      }
+    ],
+    "category": [
+      {
+        "name": "Knife Sets",
+        "url": "/kitchen-and-food/knife-sets/1",
+        "type": "PLP"
+      }
+    ],
+    "wide-plp": [
+      {
+        "name": "Area Rugs",
+        "url": "/rugs/area-rugs/1",
+        "type": "PLP"
+      }
+    ],
+    "wide-plp-collection": [
+      {
+        "name": "Oven to Table Serveware Collection",
+        "url": "/dining-and-entertaining/oven-to-table-serveware/1",
+        "type": "PLP"
+      }
+    ]
+  }
+}

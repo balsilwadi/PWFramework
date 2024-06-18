@@ -1,0 +1,16 @@
+{
+  "URL1": "/fulfillment/orders/140109185?locale=cb-en-us",
+  "Headers": {
+    "Authorization": "Bearer ",
+    "Cookie": "null",
+    "x-api-key": "null"
+  },
+  "data": {
+    "grant_type": "null",
+    "scope": "null"
+  },
+  "httpCredentials": {
+    "username": "null",
+    "password": "null"
+  }
+}

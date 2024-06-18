@@ -1,0 +1,30 @@
+[
+  {
+    "type": "emptyRegistry",
+    "user": "GR.Automation@crate.com",
+    "password": "Crate@123",
+    "registryId": "5459174",
+    "brand": "crateus"
+  },
+  {
+    "type": "emptyRegistry",
+    "user": "GR.Automation002@crate.com",
+    "password": "Crate@123",
+    "registryId": "5459201",
+    "brand": "crateus"
+  },
+  {
+    "type": "emptyRegistry",
+    "user": "GR.Automation@crate.com",
+    "password": "Crate@123",
+    "registryId": "6812476",
+    "brand": "cb2us"
+  },
+  {
+    "type": "emptyRegistry",
+    "user": "GR.Automation002@crate.com",
+    "password": "Crate@123",
+    "registryId": "6812475",
+    "brand": "cb2us"
+  }
+]

@@ -1,0 +1,12 @@
+{
+    "URL1": "/ausa03e3lGR0t1pno1d6/v1/token",
+    "Headers": {
+      "Authorization": "Basic MG9hMnZ3dDMwemJ6MUNzQWYxZDY6TDZPS2YxOHlKRjJsSnREOUFWcktMSjVxRTlzSDZmbzlzVm0tVmRoNQ==",
+      "x-api-key": "null"
+    },
+    "data": { "grant_type": "client_credentials", "scope": "giftregistry.write" },
+    "httpCredentials": {
+      "username": "",
+      "password": ""
+    }
+}

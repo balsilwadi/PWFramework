@@ -1,0 +1,29 @@
+{
+    "biography": "v1",
+    "defaultImages": "v1",
+    "items": {
+        "add": "v1",
+        "update": "v1",
+        "delete": "v1"
+    },
+    "registryCategories": "v1",
+    "registry": {
+        "get": "v2",
+        "create": "v2",
+        "update": "v2",
+        "delete": "v1",
+        "image":  "v1"
+    },
+    "registrySearch": "v1",
+    "registryTypes":  "v1",
+    "sitemap":  "v1",
+    "admin":{
+        "registry":"v1",
+        "search": "v1",
+        "items": "v1",
+        "archive": "v1",
+        "grc": "v1",
+        "PII": "v1"
+    }
+    
+}

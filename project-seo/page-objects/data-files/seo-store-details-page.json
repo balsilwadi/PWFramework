@@ -1,0 +1,45 @@
+{
+"CBUS_StoreDetailsPage": [
+    {
+      "canonical": "www.crateandbarrel.com/stores",
+      "robots": "index,follow",
+      "ogSiteName": "Crate&Barrel",
+      "ogUrl": "www.crateandbarrel.com/stores/",
+      "ogType": "localstore",
+      "fbAdmins": "1769841725"
+    }
+  ],
+
+  "CB2US_StoreDetailsPage": [
+    {
+      "canonical": "www.cb2.com/stores/",
+      "robots": "index,follow",
+      "ogSiteName": "CB2",
+      "ogUrl": "www.cb2.com/stores/",
+      "ogType": "localstore",
+      "fbAdmins": "16329660681"
+    }
+  ],
+
+  "CBCA_StoreDetailsPage": [
+    {
+      "canonical": "www.crateandbarrel.ca/stores/",
+      "robots": "index,follow",
+      "ogSiteName": "Crate and Barrel Canada",
+      "ogUrl": "www.crateandbarrel.ca/stores/",
+      "ogType": "localstore",
+      "fbAdmins": "1769841725"
+    }
+  ],
+
+  "CB2CA_StoreDetailsPage": [
+    {
+      "canonical": "www.cb2.ca/stores/",
+      "robots": "index,follow",
+      "ogSiteName": "CB2",
+      "ogUrl": "www.cb2.ca/stores/",
+      "ogType": "website",
+      "fbAdmins": "16329660681"
+    }
+  ]
+}

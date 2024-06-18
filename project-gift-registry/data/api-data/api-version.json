@@ -1,0 +1,62 @@
+{
+    "biography": {
+        "active": "v1"
+    },
+    "defaultImages": {
+        "active": "v1"
+    },
+    "items": {
+        "active": "v1"
+    },
+    "categories": {
+        "active": "v1"
+    },
+    "get": {
+            "active": "v2",
+            "inactive": "v1"
+        },
+    "create": {
+        "active": "v2",
+        "inactive": "v1"
+    },
+    "update": {
+        "active": "v2",
+        "inactive": "v1"
+    },
+    "delete": {
+        "active": "v1"
+    },
+    "image":  {
+        "active": "v1"
+    },
+    "search": {
+        "active": "v1"
+    },
+    "types": {
+        "active": "v1"
+    },
+    "sitemap": {
+        "active": "v1"
+    },
+    "admin":{
+        "registry": {
+            "active": "v1"
+        },
+        "search": {
+            "active": "v1"
+        },
+        "items": {
+            "active": "v1"
+        },
+        "archive": {
+            "active": "v1"
+        },
+        "grc": {
+            "active": "v1"
+        },
+        "PII": {
+            "active": "v1"
+        }
+    }
+    
+}

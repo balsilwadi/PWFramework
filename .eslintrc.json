@@ -1,0 +1,137 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:editorconfig/all",
+    "plugin:import/recommended",
+    "plugin:playwright/playwright-test",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "editorconfig",
+    "check-file",
+    "cucumber",
+    "prettier"
+  ],
+  "ignorePatterns": [
+    "*.csv",
+    "*.md",
+    "package.json",
+    "package-lock.json",
+    "*.png",
+    "/node_modules/",
+    "/reports/",
+    "/traces/",
+    "*.env",
+    "*.feature",
+    "*.sql",
+    "*.json",
+    "*.log",
+    "Dockerfile"
+  ],
+  "globals": {
+    "page": "writable"
+  },
+  "overrides": [
+    {
+      "files": "*.json",
+      "rules": {
+        "no-unused-expressions": "off"
+      }
+    }
+  ],
+  "rules": {
+    "cucumber/async-then": "error",
+    "cucumber/no-arrow-functions": "error",
+    "cucumber/expression-type": ["error", "Cucumber"],
+    "cucumber/no-restricted-tags": ["error", "dev"],
+    "import/extensions": "off",
+    "playwright/valid-expect":"off",
+    "import/no-restricted-paths": [
+      "error",
+      {
+        "zones": [
+          {
+            "target": "**/*.step.js",
+            "from": [
+              "**/*.step.js",
+              "**/data/**",
+              "**/api/**"
+            ]
+          },
+          {
+            "target": "**/*.page.js",
+            "from": [
+              "**/*.page.js",
+              "**/*.step.js",
+              "**/data/**",
+              "**/api/**"
+            ]
+          },
+          {
+            "target": "**/helpers/**/*.js",
+            "from": [
+              "**/*.step.js",
+              "**/*.page.js"
+            ]
+          }
+        ]
+      }
+    ],
+    "prettier/prettier": "error",
+    "comma-dangle": "off",
+    "indent": "off",
+    "editorconfig/indent": "off",
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": [
+          "@crate\/"
+        ]
+      }
+    ],
+    "class-methods-use-this": "off",
+    "import/no-anonymous-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-underscore-dangle": "off",
+    "prefer-arrow-callback": "off",
+    "func-names": "off",
+    "no-plusplus": ["error", {
+      "allowForLoopAfterthoughts": true
+    }],
+    "check-file/filename-naming-convention": [
+      "error",
+      {
+        "**/*.page.js": "KEBAB_CASE",
+        "**/*.step.js": "KEBAB_CASE",
+        "**/*.json": "KEBAB_CASE",
+        "**/*.feature": "KEBAB_CASE"
+      },
+      {
+        "ignoreMiddleExtensions": true
+      }
+    ],
+    "check-file/folder-naming-convention": [
+      "error",
+      {
+        "**/": "KEBAB_CASE"
+      }
+    ],
+    "check-file/filename-blocklist": [
+      "error",
+      {
+        "**/*-feature": "**/*.feature",
+        "**/*-page.js": "**/*.page.js",
+        "**/*-step.js": "**/*.step.js"
+      }
+    ]
+  }
+}

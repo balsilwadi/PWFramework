@@ -1,0 +1,127 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Docker Debug Tests",
+      "type": "docker",
+      "request": "launch",
+      "preLaunchTask": "docker-run: debug",
+      "platform": "node",
+      "presentation": {
+        "hidden": false,
+        "group": "Debugging",
+        "order": 1
+      },
+    },
+     {
+      "name": "Debug Tests",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run test -- --device \"${input:device}\" --env \"${input:site}\" --tags \"@${input:tags}\" ",
+      "env": {
+        "CRATE_BROWSER_URL": "http://172.25.24.24/",
+        "BASE_URL": "https://qa-www.crateandbarrel.com",
+        "HEADLESS": "${input:headless}"
+      },
+      "skipFiles": [
+        "${workspaceFolder}/node_modules/**/*.js",
+        "<node_internals>/**/*.js"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "Debugging",
+        "order": 2
+      }
+    },
+    {
+      "name": "Debug Tests Custom",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run test -- --device \"${input:device}\" --env \"${input:site}\" --tags \"@${input:tags}\" ",
+      "env": {
+        "CRATE_BROWSER_URL": "http://172.25.24.24/",
+        "BASE_URL": "https://qa-www.crateandbarrel.com",
+        "PWDEBUG": "${input:debugPlaywright}",
+        "HEADLESS": "${input:headless}"
+      },
+      "skipFiles": [
+        "${workspaceFolder}/node_modules/**/*.js",
+        "<node_internals>/**/*.js"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "Debugging",
+        "order": 3
+      }
+    },
+    {
+      "name": "Run Report",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run test -- --device \"${input:device}\" --env \"${input:site}\" --tags \"@${input:tags}\" --report ",
+    },
+    {
+      "name": "Lint",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npx eslint **/* ${input:autoFix}",
+    },
+    {
+      "name": "Playwright Recorder",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npx playwright codegen"
+    },
+    {
+      "name": "Docker Shell",
+      "type": "docker",
+      "request": "launch",
+      "preLaunchTask": "docker-run: shell",
+      "platform": "node"
+    },
+  ],
+  "inputs": [
+    {
+      "type": "pickString",
+      "id": "debugPlaywright",
+      "description": "Run tests in playwright debug mode",
+      "options": ["0","1", "console"],
+      "default": "0"
+    },
+    {
+      "type": "pickString",
+      "id": "tags",
+      "description": "Tags of tests to run",
+      "options": ["dev","Smoke", "Regression", "Account", "Checkout", "Browse"],
+      "default": "dev"
+    },
+     {
+      "type": "pickString",
+      "id": "device",
+      "description": "Type of device to use",
+      "options": ["Desktop Chrome", "Desktop Safari", "iPhone 13", "Pixel 5"],
+      "default": "Desktop Chrome"
+    },
+    {
+      "type": "pickString",
+      "id": "site",
+      "description": "Website to use",
+      "options": ["qa-crate-us", "qa-cb2-us", "qa-crate-ca", "qa-cb2-ca"],
+      "default": "qa-crate-us"
+    },
+    {
+      "type": "pickString",
+      "id": "headless",
+      "description": "Run tests in headless mode",
+      "options": ["true","false"],
+      "default": "false"
+    },
+    {
+      "type": "pickString",
+      "id": "autoFix",
+      "description": "Auto fix linting",
+      "options": ["","--fix"],
+      "default": ""
+    }
+  ]
+}

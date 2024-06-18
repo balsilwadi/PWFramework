@@ -1,0 +1,9 @@
+site, country, environment, name, value, sequence
+Crate, US,, prod-zipcode, 90210, 1
+Crate, CA,, prod-zipcode, 90210, 1
+CB2, US,, prod-zipcode, 90210, 1
+CB2, CA,, prod-zipcode, 90210, 1
+Crate, US,, prod-store-number, 100, 1
+Crate, CA,, prod-store-number, 101, 1
+CB2, US,, prod-store-number, 200, 1
+CB2, CA,, prod-store-number, 201, 1

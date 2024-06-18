@@ -1,0 +1,17 @@
+{
+  "default": {
+    "require": ["setup/hooks.js", "**/*step.js", "configs/config.js"],
+    "paths": ["**/*.feature"],
+    "format": ["@cucumber/pretty-formatter", "json:./reports/testResults.json", "junit:./reports/testResults.xml", "rerun:@rerun.txt"],
+    "strict": true,
+    "backtrace": true,
+    "parallel": 5
+  },
+  "rerun": {
+    "require": ["setup/hooks.js", "**/*step.js", "configs/config.js"],
+    "format": ["@cucumber/pretty-formatter", "json:./reports/testResults_rerun.json", "junit:./reports/testResultsRerun.xml"],
+    "strict": true,
+    "backtrace": true,
+    "parallel": 5
+  }
+}

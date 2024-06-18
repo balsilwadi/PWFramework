@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-azuretools.vscode-docker",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "ms-playwright.playwright",
+    "alexkrechik.cucumberautocomplete",
+    "esbenp.prettier-vscode"
+  ]
+}

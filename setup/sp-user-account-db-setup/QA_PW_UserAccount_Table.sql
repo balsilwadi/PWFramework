@@ -1,0 +1,14 @@
+
+CREATE TABLE [dbo].[qa_pw_user_account](
+	[data_id] [INT] IDENTITY(1,1) NOT NULL,
+	[data_status] [VARCHAR](100) NULL,
+	[pw_user_name] [VARCHAR](100) NULL,
+	CONSTRAINT [UC_user_name] UNIQUE (pw_user_name),
+ CONSTRAINT [PK_qa_pw_user_account] PRIMARY KEY CLUSTERED 
+(
+	[data_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+

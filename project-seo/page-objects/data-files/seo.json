@@ -1,0 +1,170 @@
+{
+  "CBUS_SearchPage": [
+    {
+      "canonical": "https://www.crateandbarrel.com/search",
+      "robots": "index,follow",
+      "ogSiteName": "Crate&Barrel",
+      "ogUrl": "https://www.crateandbarrel.com/search",
+      "ogType": "website",
+      "fbAdmins": "1769841725"
+    }
+  ],
+  "CB2US_SearchPage": [
+    {
+      "canonical": "https://www.cb2.com/search",
+      "robots": "index,follow",
+      "ogSiteName": "CB2",
+      "ogUrl": "https://www.cb2.com/search",
+      "ogType": "website",
+      "fbAdmins": "16329660681"
+    }
+  ],
+  "CBCA_SearchPage": [
+    {
+      "canonical": "https://www.crateandbarrel.ca/search",
+      "robots": "index,follow",
+      "ogSiteName": "Crate and Barrel Canada",
+      "ogUrl": "https://www.crateandbarrel.ca/search",
+      "ogType": "website",
+      "fbAdmins": "1769841725"
+    }
+  ],
+  "CB2CA_SearchPage": [
+    {
+      "canonical": "https://www.cb2.ca/search",
+      "robots": "index,follow",
+      "ogSiteName": "CB2 Canada",
+      "ogUrl": "https://www.cb2.ca/search",
+      "ogType": "website",
+      "fbAdmins": "16329660681"
+    }
+  ],
+
+  "CBUS_HomePage": [
+    {
+      "canonical": "https://www.crateandbarrel.com/",
+      "robots": "index,follow",
+      "ogSiteName": "Crate & Barrel",
+      "ogUrl": "https://www.crateandbarrel.com/",
+      "ogType": "website",
+      "fbAdmins": "1769841725"
+    }
+  ],
+  "CB2US_HomePage": [
+    {
+      "canonical": "https://www.cb2.com/",
+      "robots": "index,follow",
+      "googleSiteVerification": "8HmOFXFB8BHEzoQFP2gXXFoRP56zBHxDff0vNXRXPtw",
+      "ogSiteName": "CB2",
+      "ogUrl": "https://www.cb2.com/",
+      "ogType": "website",
+      "fbAdmins": "16329660681"
+    }
+  ],
+  "CBCA_HomePage": [
+    {
+      "canonical": "https://www.crateandbarrel.ca/",
+      "robots": "index,follow",
+      "googleSiteVerification": "LHSFi5bSgo34bPL5i1NhQ8Hawh3VY2kzI57eBBGVzRM",
+      "ogSiteName": "Crate & Barrel",
+      "ogUrl": "https://www.crateandbarrel.ca/",
+      "ogType": "website",
+      "fbAdmins": "1769841725"
+    }
+  ],
+  "CB2CA_HomePage": [
+    {
+      "canonical": "https://www.cb2.ca/",
+      "robots": "index,follow",
+      "googleSiteVerification": "8HmOFXFB8BHEzoQFP2gXXFoRP56zBHxDff0vNXRXPtw",
+      "ogSiteName": "CB2 Canada",
+      "ogUrl": "https://www.cb2.ca/",
+      "ogType": "website",
+      "fbAdmins": "16329660681"
+    }
+  ],
+  "CBUS_GiftCardPage": [
+    {
+      "canonical": "www.crateandbarrel.com/gift-cards/",
+      "robots": "index,follow",
+      "ogSiteName": "Crate&Barrel",
+      "ogUrl": "www.crateandbarrel.com/gift-cards/",
+      "ogType": "website",
+      "fbAdmins": "1769841725"
+    }
+  ],
+  "CBCA_GiftCardPage": [
+    {
+      "canonical": "www.crateandbarrel.ca/gift-cards/",
+      "robots": "index,follow",
+      "ogSiteName": "Crate and Barrel Canada",
+      "ogUrl": "www.crateandbarrel.ca/gift-cards/",
+      "ogType": "website",
+      "fbAdmins": "1769841725"
+    }
+  ],
+  "CB2US_GiftCardPage": [
+    {
+      "canonical": "www.cb2.com/gift-cards/",
+      "robots": "index,follow",
+      "ogSiteName": "CB2",
+      "ogUrl": "www.cb2.com/gift-cards/",
+      "ogType": "website",
+      "fbAdmins": "16329660681"
+    }
+  ],
+  "CB2CA_GiftCardPage": [
+    {
+      "canonical": "www.cb2.ca/gift-cards/",
+      "robots": "index,follow",
+      "ogSiteName": "CB2 Canada",
+      "ogUrl": "www.cb2.ca/gift-cards/",
+      "ogType": "website",
+      "fbAdmins": "16329660681"
+    }
+  ],
+
+  "CBUS_StoreLocatorPage": [
+    {
+      "canonical": "www.crateandbarrel.com/stores/",
+      "robots": "index,follow",
+      "ogSiteName": "Crate&Barrel",
+      "ogUrl": "www.crateandbarrel.com/stores/",
+      "ogType": "website | localstore",
+      "fbAdmins": "1769841725"
+    }
+  ],
+
+  "CB2US_StoreLocatorPage": [
+    {
+      "canonical": "www.cb2.com/stores/",
+      "robots": "index,follow",
+      "ogSiteName": "CB2",
+      "ogUrl": "www.cb2.com/stores/",
+      "ogType": "website",
+      "fbAdmins": "16329660681"
+    }
+  ],
+
+  "CBCA_StoreLocatorPage": [
+    {
+      "canonical": "www.crateandbarrel.ca/stores/",
+      "robots": "index,follow",
+      "ogSiteName": "Crate and Barrel Canada",
+      "ogUrl": "www.crateandbarrel.ca/stores/",
+      "ogType": "website",
+      "fbAdmins": "1769841725"
+    }
+  ],
+
+  "CB2CA_StoreLocatorPage": [
+    {
+      "canonical": "www.cb2.ca/stores/",
+      "robots": "index,follow",
+      "ogSiteName": "CB2 Canada",
+      "ogUrl": "www.cb2.ca/stores/",
+      "ogType": "website",
+      "fbAdmins": "16329660681"
+    }
+  ]
+}

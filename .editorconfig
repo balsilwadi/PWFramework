@@ -1,0 +1,19 @@
+# http://EditorConfig.org
+# https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
+
+# top-most EditorConfig file
+root = true
+
+# Don't use tabs for indentation.
+[*]
+indent_style = space
+# (Please don't specify an indent_size here; that has too many unintended consequences.)
+max_line_length = 160
+
+[*.js]
+insert_final_newline = true
+charset = utf-8
+
+[*.json]
+insert_final_newline = true
+charset = utf-8

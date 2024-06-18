@@ -1,0 +1,14 @@
+{
+  "ProductSchema": {
+    "@type": "Product",
+    "description": "",
+    "name": "",
+    "url": "",
+    "sku": "",
+    "gtin14": "",
+    "brand": { "type": "Brand", "name": "" },
+    "image": [],
+    "offers": { "type": "Offer" },
+    "suggestedGender": "Unisex"
+  }
+}

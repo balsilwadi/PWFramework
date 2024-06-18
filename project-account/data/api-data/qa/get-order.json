@@ -1,0 +1,13 @@
+{
+  "URL1": "/ausa03e3lGR0t1pno1d6/v1/token",
+  "Headers": {
+    "Authorization": "Basic MG9hMnZ3dDMwemJ6MUNzQWYxZDY6TDZPS2YxOHlKRjJsSnREOUFWcktMSjVxRTlzSDZmbzlzVm0tVmRoNQ==",
+    "Cookie": "JSESSIONID=AAF3C39A5B4AC0E909925412DB478EA0",
+    "x-api-key": "null"
+  },
+  "data": { "grant_type": "client_credentials", "scope": "fulfillment.order.read" },
+  "httpCredentials": {
+    "username": "null",
+    "password": "null"
+  }
+}

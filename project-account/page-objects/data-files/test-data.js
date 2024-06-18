@@ -1,0 +1,477 @@
+module.exports = {
+  billingInfo: {
+    billFirstName: 'AJESH',
+    billLastName: 'SOMAN',
+    billAddress1: '1250 TECHNY RD',
+    billCity: 'NORTHBROOK',
+    billState: 'IL',
+    billZipcode: '60062',
+    billPhoneNumber: '6302849698',
+    ccNumber: '4111111111111111',
+    ccExpiry: '12/25',
+    ccCvv: '123',
+    visa: '4111111111111111',
+    master: '5454545454545454',
+    discover: '6555900000253994',
+    plcc: '6045881009078103',
+    cbcc: '5243041009078023',
+    amex: '349956959041362',
+    amexcvv: '1234',
+    cbccexp: '12/28',
+    cbcccvv: '770',
+    cbcc2: '5243041068887835',
+    cbccexp2: '12/28',
+    cbcccvv2: '616',
+    cbcc3: '6045881018061512',
+    cbccexp3: '12/28',
+    cbcccvv3: '822'
+  },
+
+  createnewaccount: {
+    header: 'Create an Account',
+    description: 'Save payment to view in-store purchases Redeem Rewards Speedy checkout Easily track orders and view order history Create a Registry',
+    buttonText: 'CREATE ACCOUNT',
+    orderTracking: "Don't have an account? Track/Schedule Order",
+    accountHeader: 'Create an Account',
+    accountDescription:
+      "Want to check out faster, easily apply Rewards and keep track of your online and in-store orders? Create an account now and save your payment method. It's even easier when you sign up using Google or Apple.",
+    accountDescriptionCAN:
+      "Want to check out faster and keep track of your online and in-store orders? Create an account now and save your payment method. It's even easier when you sign up using Google or Apple.",
+    appleLogin: 'CREATE USING APPLE',
+    googleLogin: 'CREATE USING GOOGLE',
+    firstName: 'First Name required',
+    lastName: 'Last Name required',
+    phoneNumber: 'Phone Number required',
+    emailAddress: 'Email Address required',
+    createPassword: 'Create Password required',
+    createAccount: 'CREATE ACCOUNT',
+    policy: 'By creating an account you are agreeing to our Terms of Use and Privacy Policy.',
+    passwordRequirement_1: 'At least one lowercase letter',
+    passwordRequirement_2: 'At least one capital letter',
+    passwordRequirement_3: 'At least one number',
+    passwordRequirement_4: 'At least one symbol (!#*_%.$)',
+    passwordRequirement_5: 'At least 9 characters (14 recommended)',
+    fName: 'playwright',
+    lName: 'test',
+    phone: '4405678955',
+    zipCode: '12345',
+    password: 'Crate123!',
+    newemail: 'dummy@email.com',
+    // cb2 US
+    cb2us_acntheader: 'CREATE AN ACCOUNT'
+  },
+
+  homepage: {
+    acntheader: 'Orders & Sign In',
+    cb2us_signinHeader: 'Sign In / Create Account'
+  },
+
+  myaccountpage_payment: {
+    addnewpayment: '+ Add New PaymentAdd New Credit Card (Opens Modal Dialog)',
+    addnewpayment_header: 'Add Payment',
+    addnewpayment_ccnum: 'Card Number required',
+    addnewpayment_expiry: 'Expiration MM/YY required',
+    addnewpayment_seccode: 'Security Code required',
+    addnewpayment_primary: 'Make Primary',
+    addnewpayment_cancel: 'CANCEL',
+    addnewpayment_submit: 'ADD PAYMENT',
+    addnewpayment_visa: 'Visa',
+    addnewpayment_master: 'MasterCard',
+    addnewpayment_discover: 'Discover',
+    addnewpayment_amex: 'AmericanExpress',
+    addnewpayment_cbcc: 'C&B/CB2 MC',
+    addnewpayment_plcc: 'C&B/CB2 CC',
+    addnewpayment_visaccnum: 'Visa ***1111',
+    addnewpayment_masterccnum: 'MasterCard ***5454',
+    addnewpayment_discoverccnum: 'Discover ***3994',
+    addnewpayment_amexccnum: 'AmericanExpress ***1362',
+    addnewpayment_cbccnum: 'C&B/CB2 MC ***8023',
+    addnewpayment_plccnum: 'C&B/CB2 CC ***8103',
+    addnewpayment_exp: 'Expiration Date12/2025',
+    addnewpayment_cbccexp: 'Expiration Date12/2028',
+    addnewpayment_default: 'Default Payment'
+  },
+
+  myaccountpage_address: {
+    shippingaddress_header: 'Add Shipping Address',
+    shippingaddress_fname: 'First Namerequired',
+    shippingaddress_lname: 'Last Namerequired',
+    shippingaddress_address: 'Street Addressrequired',
+    shippingaddress_apt: 'Apartment, Suite, Building, Other optional',
+    shippingaddress_zipcode: 'Zip Code required',
+    shippingaddress_zipcodeCA: 'Postal Code required',
+    shippingaddress_city: 'Cityrequired',
+    shippingaddress_state: 'Staterequired',
+    shippingaddress_stateCA: 'Provincerequired',
+    shippingaddress_phone: 'Phone Numberrequired',
+    billingaddress_stateCA: 'BC',
+    billingaddress_stateUS: 'AZ',
+    interaddress2: 'Address2',
+    interaddress3: 'Address 3',
+    interpostalcode: 'Postal Code optional',
+    interstate: 'State / Province optional',
+    interemail: 'Where should we email your receipts?required',
+    aptToggleShow: 'Add apt, suite or other',
+    aptToggleHide: "Hide add'l address info",
+    fname: 'Address',
+    lname: 'Shipping',
+    address: '1250 Techny Road',
+    updatedAddress: '1750 Techny Rd',
+    apt: '25',
+    city: 'NORTHBROOK',
+    zipcode: '60062',
+    state: 'Illinois',
+    statecode: 'IL',
+    phone: '2223334455',
+
+    fname_ed: 'AddressAgain',
+    lname_ed: 'Edit',
+    address_ed: '1250 Techny Rd',
+    apt_ed: ' ',
+    city_ed: 'NORTHBROOK',
+    zipcode_ed: '60062',
+    state_ed: 'Illinois',
+    statecode_ed: 'IL',
+    phone_ed: '5554443322',
+
+    addressCa: '99 Hallowell Ave',
+    aptCa: 'Apt A',
+    cityCa: 'Westmount',
+    zipcodeCa: 'H3Z2E8',
+    stateCa: 'QC',
+
+    addressCa_ed: '77 Metcalfe ST',
+    aptCa_ed: 'Building B',
+    cityCa_ed: 'Ottawa',
+    zipcodeCa_ed: 'K1P5L6',
+    stateCa_ed: 'ON',
+
+    billingaddress_header: 'Billing Address',
+    billingaddress_domestic: 'Domestic (US) Address',
+    billingaddress_domesticCA: 'Domestic (Canada) Address',
+    billingaddress_international: 'International Address',
+    billingaddress_updated: 'Your information has been updated',
+    intaddress_country: 'IND',
+    intaddress_countryUS: 'USA',
+    intaddress_countryCA: 'CAN',
+    intaddress_fname: 'Test',
+    intaddress_lname: 'Automation',
+    intaddress_address1: '18 Main Street',
+    intaddress_address2: 'Apt: R11',
+    intaddress_address3: 'Majestic',
+    intaddress_cityCA: 'Toronto',
+    intaddress_stateCA: 'ON',
+    intaddress_phone: '9945678900',
+    intaddress_zipcodeCA: 'L5T 2T5',
+    intaddress_cityUS: 'Boston',
+    intaddress_stateUS: 'MA',
+    intaddress_zipcodeUS: '02452',
+    intaddress_email: 'Where should we email your receipts?Required',
+    dtpBillingAddressMsg:
+      'The billing address, phone numbers and email in your account are associated with Trade Program and cannot be edited. To make any changes, please contact the Trade Concierge line at 800.606.6498',
+    dtpBillingAddressTitle: 'Trade Program Member',
+    dtpBillingAddress: 'GUEST USER1250 TECHNY RDNORTHBROOK, IL 60062Daytime Phone: 267.264.8346GUEST_USER@GMAIL.COM',
+    dtpBillingAddressCB2US: 'CBTWO DTP1104 STEARNS HILL RDWALTHAM, MA 02451CB2DTP@GMAIL.COM',
+    dtpBillAddressCrateCAN: 'CRATEONE CANADAONE2820 14TH AVENUEMARKHAM, ON L3R 0S9CRATECANADA@ONE.COM',
+    dtpBillingAddressCB2CAN: 'CBTWO CANADAONE2820 14TH AVENUEMARKHAM, ON L3R 0S9CB2CANADA@ONE.COM'
+  },
+
+  loginPage: {
+    resetPasswordPopup_MSG: 'Enter your email address below and we will send you instructions to reset your password.',
+    resetPasswordSuccess_MSG: 'We have received your request. Check the email you provided for instructions on resetting your password.',
+    login_header: 'Sign In',
+    savePaymentAccountMsg: 'Save payment to view in-store purchases',
+    redeemRewardsAccountMsg: 'Redeem Rewards',
+    speedyCheckoutAccountMsg: 'Speedy checkout',
+    trackOrdersAccountMsg: 'Easily track orders and view order history',
+    createRegistryAccountMsg: 'Create a Registry',
+    designPackageAccountMsg: 'View Your Design Packages',
+    favoritesListAccountMsg: 'Manage Favorites Lists',
+    cb2SavePaymentAccountMsg: 'Option to save payments to view in-store orders',
+    cb2RedeemRewardsAccountMsg: 'Easily redeem rewards',
+    cb2SpeedyCheckoutAccountMsg: 'Speedy checkout',
+    cb2TrackOrdersAccountMsg: 'Easily track orders and view order history',
+    cb2CreateRegistryAccountMsg: 'Create or manage a registry',
+    cb2DesignPackageAccountMsg: 'View your design packages',
+    cb2FavoritesListAccountMsg: 'Manage favorites lists',
+    loginErrorMsg:
+      'The email and password combination did not match our records. Please try again, sign in with Google, sign in with Apple, or reset password.',
+    loginErrorExceeded: 'You have exceeded the maximum number of login attempts. Please reset your password now.',
+    ssoLogin: 'pwssotest@cb.com'
+  },
+
+  manageRegistry: {
+    header: 'Manage My Registry'
+  },
+
+  accountSettingsPage: {
+    accountSettingsHeader: 'Account Settings',
+    updatePasswordMessage: 'This password will update for all associated registries and accounts for Crate and Barrel and CB2.',
+    updateSummaryMessage:
+      'Note: If you created an account using Google or Apple, you will not be able to update your email and/or password on our website. Sign in with Google or Apple to access your Crate and Barrel and/or CB2 account.',
+    emailUpdatedSuccessMessage: 'Your email has been updated for Crate and Barrel and CB2.',
+    passwordUpdatedSuccessMessage: 'Your password has been updated for Crate and Barrel and CB2.',
+    updatedEmail: 'Crate.com',
+    updatedPassword: 'Crate@123',
+    updatePasswordMsgDTP:
+      'Your email is associated with Trade Program and cannot be edited. To make any changes, please contact Customer Service at 800.606.6498.',
+    originalPassword: 'Original Password required',
+    newPassword: 'New Password required',
+    updatePasswordHeader: 'Update Password'
+  },
+
+  orderTrackingPage: {
+    header: 'Track Order, Schedule Delivery, Start Return',
+    description: 'Track your order, schedule your delivery or start a return by entering your order number and email associated with the order below.',
+    orderNumber: 'Order Number required',
+    email: 'Email required',
+    contact: 'Need help? Contact us here',
+    createAccount: "Don't have an account? Create an Account",
+    signInAgreement: 'By signing in, you are agreeing to our Terms of Use (opens in new window) and Privacy Policy (opens in new window).',
+    greeting: 'Welcome back, ',
+    emailLbl: 'Email',
+    password: 'Password',
+    acntPassword: 'Crate123!',
+    swatchQty: 'Quantity: 1',
+    freeSwatch: 'Free Swatch',
+    swatchFabric: 'Fabric: '
+  },
+
+  myFavoritesPage: {
+    Cb2NoItemMessage: 'Something catch your eye?',
+    title: 'My Favorites'
+  },
+
+  interrupter: {
+    smsOnlyInterrupterText: 'find out first',
+    smsOnlyInterrupterTextCB2: 'SAVE 15% OFF FULL-PRICE ITEMS*',
+    smsOnlyIntSubtext: 'Get alerts about new items, sales and more.',
+    smsOnlyIntDescription:
+      'By signing up for text, you agree to receive recurring automated promotional and personalized marketing text messages (e.g. cart reminders) at this number from Crate and Barrel. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Msg frequency varies. Msg & data rates may apply. View Terms and Privacy Policy. Offer terms available here. Exclusions apply.',
+    interrutperDescCB2US:
+      'By submitting this form and providing your cell phone number, you agree to receive recurring automated promotional and personalized marketing text messages (e.g. cart reminders) at this number from Crate and Barrel. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Msg frequency varies. Msg & data rates may apply. View Terms and Privacy Policy. Offer terms available here. Exclusions apply.',
+    interrutperDescCrateCA:
+      'By submitting this form, you agree to receive marketing emails at this email address. *Offer terms available here. Exclusions apply. Discount code available for new subscribers only.',
+    interrutperDescCB2CA:
+      'By submitting this form and providing your email, you agree to receive recurring automated promotional and personalized marketing emails from CB2 at the email used when signing up. Consent is not a condition of any purchase. *Offer terms available here. Exclusions apply. Discount code available for new subscribers only.',
+    smsOnlyIntDescriptionMobile:
+      'By submitting this form and providing your cell phone number, you agree to receive recurring automated promotional and personalized marketing text messages (e.g. cart reminders) at this number from Crate and Barrel. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Msg frequency varies. Msg & data rates may apply. View Terms and Privacy Policy. Offer terms available here. Exclusions apply.',
+    intterupterMobileField: 'Mobile Phone Numberrequired',
+    phoneNumber: '4405678955',
+    thanksMsgSMSOnly: 'Thank you!',
+    thanksMsgSMSOnlyCB2: 'Thank you!',
+    comboInterrutperHeader: 'Save 10% off full-price items*',
+    comboInterrutperHeaderCB2US: 'SAVE 15% OFF FULL-PRICE ITEMS*',
+    secondPageHeader: 'Thanks for signing up!',
+    secondPageSubText: "We'll email or text you your 10% discount code.",
+    secondPageHeaderCB2: 'THANKS FOR SIGNING UP!',
+    secondPageSubtextCB2US: 'Check your text messages for your 15% code.',
+    additionalBrandDesc: 'Sign up to get a discount code for each of our brands.',
+    comboInterrupterSubtext: 'Get alerts about new items, sales and more.',
+    comboEmailField: 'Email Addressrequired',
+    comboPhoneField: 'Mobile Phone Numberrequired',
+    kidsCheckbox: 'Send me news about Crate&Kids too',
+    subtextFinalScreen: 'Check your email for your discount codes.',
+    offerBanner1Mobile: 'SAVE 10%',
+    offerBanner2Mobile: 'ON FULL-PRICE ITEMS*'
+  },
+
+  cartPage: {
+    msgAgreement: 'By signing in, you are agreeing to our Terms of Use(opens in new window) and Privacy Policy(opens in new window).',
+    msgCreateAccount: "Don't have an account? Create an Account"
+  },
+
+  confirmationPage: {
+    createAccount: 'Create an account',
+    createAccountDesc: 'Easily track details and view order history across brandsSave payment to view in-store purchasesSpeedy checkout',
+    emailHeader: 'Email',
+    password: 'Enter a Password required',
+    passwordReq:
+      'Your password requires the following:At least one lowercase letternot metAt least one capital letternot metAt least one numbernot metAt least one symbol (!#*_%.$)not metAt least 9 characters (14 recommended)not met',
+    passwordReqSuccess:
+      'Your password requires the following:At least one lowercase lettersuccessAt least one capital lettersuccessAt least one numbersuccessAt least one symbol (!#*_%.$)successAt least 9 characters (14 recommended)success',
+    dividerText: 'OR',
+    consent: 'By creating an account you are agreeing to our Terms of Use and Privacy Policy. *Excludes purchases paid by check, PayPal and Gift Cards.',
+    loginHeader: 'We found an account with your email',
+    passwordLabel: 'Password ',
+    agreement1: 'By signing in, you are agreeing to our Terms of Use(opens in new window) and Privacy Policy(opens in new window).',
+    agreement2: "Don't have an account? Create an Account"
+  },
+
+  myRegistriesPage: {
+    fNameHasRegistry: 'Has',
+    fNameHasNoRegistry: 'HasNo',
+    lNameRegistry: 'Registry',
+    emailHasRegistry: 'hasRegistry@gmail.com',
+    emailHasNoRegistry: 'hasNoRegistry@gmail.com',
+    lblFName: 'First Namerequired',
+    lblLName: 'Last Namerequired',
+    lblEventType: 'Type of Registryrequired',
+    msgIWantToReceive: '        Yes, I want to receive registry updates, my completion discount & more.      ',
+    registrantFullName: 'Has Registry'
+  },
+  createRegistry: {
+    firstNameLabel: 'First Namerequired',
+    lastNameLabel: 'Last Namerequired',
+    phoneNumberLabel: 'Phone Numberrequired',
+    emailLabel: 'Email Addressrequired',
+    registryTypeLabel: 'Type of Registryrequired',
+    firstName: 'Gift',
+    lastName: 'Registry',
+    phoneNumber: '2154445566',
+    weddingHeader1CB: 'THE WEDDING REGISTRY',
+    weddingHeader1CB2: 'THE GIFT REGISTRY',
+    weddingHeader2: "let's get you registered",
+    registryWedding: 'Wedding',
+    createAccount: 'Create your account',
+    createAccountH2: 'Please create an account below to start creating your registry.',
+    createPassword: 'Create Password required',
+    policy: 'By creating an account you are agreeing to our Terms of Use and Privacy Policy.',
+    password: 'Crate123$',
+    emailExCustomer: 'playwright@crate.com',
+    welcomeBackmsg1: 'Welcome back, ',
+    welcomeBackmsg2: '.    Please sign in'
+  },
+  designPackage: {
+    header: 'Design Packages',
+    desc: 'Here you can find Design Packages that have been sent to you from your Design Pro. Included in each package are moodboards, product lists, 3D renders and floorplans.',
+    newPackage: 'You do not have any Design Packages yet. Start your first Design Desk project today!',
+    startNewPackage: 'START A DESIGN DESK PROJECT',
+    packageDate: 'May 2024',
+    packageName: 'Store Visit 4/22/2024',
+    quoteDate: 'Quote Date:',
+    designerInfo: 'vmoskul@crateandbarrel.com',
+    lnkDesignPackage: 'DESIGN PACKAGE',
+    lnkProducts: 'PRODUCTS',
+    msgCBCC: 'EVERYDAY REWARDS',
+    additionalMsgCBCC: 'Earn10%backinRewardDollars*onCrate&BarrelpurchaseswithaCrate&Barrelcreditcard.LearnMore ',
+    msgCBCC_CB2: 'in reward dollars* on this purchase and 10% back in reward dollars on purchases at CB2 everyday with a CB2 credit card.',
+    msgAddAll: 'items added to your cart'
+  },
+  rewards: {
+    applyNow: 'Apply Now',
+    benefit1Title: 'earn $20 inreward dollars*',
+    benefit2Title: 'our appmakes it easy',
+    benefit3Title: 'exclusiveaccess',
+    benefit1Desc:
+      "For every $200 you spend at Crate & Barrel and CB2. That's 10% back!* Excludes special financing.Reward Dollars legal terms (opens modal dialog)",
+    benefit2Desc: 'Manage your account and Rewards, shop seamlessly and more.',
+    benefit3Desc: 'To cardholder-only offers and events, plus more perks.',
+    addCC: 'Add Credit Card',
+    header: 'Rewards',
+    zeroRewards: '$0.00',
+    rewardHistory: 'Reward History',
+    rewardHistoryDesc: 'You have no redeemed or expired rewards within the last 12 months.',
+    rewardsAvailTitle: 'Available Rewards',
+    manageCC: 'Manage Credit Card',
+    nextCC: 'View progress towards next Reward',
+    rewardsMenu: 'Rewards: $0'
+  },
+  catalogUnsubscribeForm: {
+    firstName: 'Playwright',
+    lastName: 'Automation',
+    address1: '1250 TECHNY RD',
+    city: 'NORTHBROOK',
+    state: 'IL',
+    zipCode: '60062'
+  },
+  pdpLogin: {
+    url: '/search?query=Table&isLanded=true&isReadyToShipAvailabilityOn=false'
+  },
+  designServicesForm: {
+    fName: 'Design',
+    lName: 'Services',
+    preferredContactMethod: 'Email',
+    msgDesignDetails: 'Test',
+    disabledEmail: 'designServices@gmail.com',
+    lblFname: 'First Namerequired',
+    lblLname: 'Last Namerequired',
+    lblEmail: 'Email Addressrequired',
+    lblEmailCB: 'Emailrequired',
+    lblPhone: 'Phone Numberrequired',
+    lblPhoneCB: 'Phonerequired',
+    lblZipCode: 'Zip Coderequired',
+    lblZipCodeCA: 'Postal Coderequired',
+    lblPrefMethod: 'Preferred Contact Methodrequired',
+    msgListSuccessCB:
+      'Identify Crate and Barrel products that catch your eye. Here are a few places to start: What’s New and The Frame.Gather inspirational photos to share with our designers.Gather photos and dimensions of your space that will assist your designer with starting your project off right. Photo and Dimension Guide (PDF)',
+    msgListSuccessCB2:
+      'Identify CB2 products that catch your eye. Here are a few places to start: What’s New and Our Latest Lookbook.Gather inspirational photos to share with our designers.Gather photos and dimensions of your space that will assist your designer with starting your project off right. Photo and Dimension Guide (PDF)',
+    signInDesc: 'Please sign in below so that once your Design Pro completes your Design Package, you can access it any time on our website.'
+  },
+  storePage: {
+    lblStore: 'My Store',
+    txtZipcode: '60025'
+  },
+  commPref: {
+    prefHeader: 'Email and Text Preferences',
+    prefDesc: "Let's connect. Sign up or manage your preferences.",
+    textDrawerHeader: 'Text Messages',
+    textDrawerDesc: 'Manage your text message preferences.',
+    emailDrawerHeader: 'Email',
+    emailDrawerDesc: 'Manage your email preferences.',
+    phone: 'Phone Number: Required',
+    emailLabel: 'Email address:',
+    emailLabelGuest: 'Email address: Required',
+    smsCrate: 'I agree to the terms and conditions and privacy policy for Crate & Barrel*',
+    smsCb2: 'I agree to the terms and conditions and privacy policy for CB2*',
+    smsKids: 'I agree to the terms and conditions and privacy policy for Crate & Kids*',
+    smsSuccessmsg: ' Check your texts. Reply Y to confirm your subscription to promotional text messages.',
+    smsOptInStatus: 'Text messaging status will be reflected on your phone immediately. Your text status will be shown on this page in 24 hours',
+    updatedTextOptIn: "You've opted in to:",
+    email: 'Email address:',
+    emailDesc: 'You are currently receiving emails about new items, sales and more from the following brands:',
+    emailCrate: 'Crate & Barrel',
+    emailKids: 'Crate & Kids',
+    emailCb2: 'CB2',
+    emailHG: 'Hudson Grace',
+    emailConsent: 'Note that it may take a few days for changes to go into effect. You will still receive transactional and account emails, if applicable.',
+    emailUnsubscribe: 'Want to unsubscribe from all emails?',
+    emailSuccessMsg: 'Your changes have been applied and may take a few days to go into effect.',
+    emailUnsubscribeAll: 'You are unsubscribed from all email communication. It may take a few days for change to go into effect.',
+    emailUnsubscribeAllMsg: 'You are unsubscribed from all email communication. It may take a few days for changes to go into effect.'
+  },
+  narvarReturns: {
+    narvarURL: 'returns-st01.narvar.qa'
+  },
+  orderDetails: {
+    email: 'order-tracking@gmail.com',
+    txtRegistryAddressName: `KOZINAKA KAKA`,
+    txtRegistryAddressHiden: `(Address hidden for privacy)`,
+    txtGiftMsgH1: `GIFT MESSAGE`,
+    txtGiftMsg: `congrats`,
+    txtGift: 'Gift',
+    txtRegistryName: `kozinaka kaka`
+  },
+  cookieSetting: {
+    headerTitle: 'Cookie Consent',
+    mnuOption1: 'Overview',
+    mnuOption2: 'Strictly Necessary Cookies',
+    mnuOption3: 'Advertising Cookies',
+    mnuOption4: 'Performance & Functionality Cookies',
+    btnConfirmChanges: 'Confirm Changes',
+    btnRejectAll: 'Reject All Cookies',
+    btnAcceptAll: 'Accept All Cookies'
+  },
+  interrupterText: {
+    emailYesPhoneYes: {
+      mainCopy: "Thanks, looks like you're already subscribed!",
+      subCopy: 'This promo code is only offered to new customers.'
+    },
+    emailOnlyOptIn: 'pwemailonlyoptin@crate.com'
+  },
+  giftCards: {
+    amount: '$50.00',
+    eGiftCardByEmailH2: 'eGift Card by Email',
+    eGiftCardByEmail:
+      'Perfect for any gift-giving occasion.    Redeem online or in stores at CB2, Crate & Barrel, Crate & Kids, including Outlets.    Any amount between $25-$1,000.    Never expires.    Sent within minutes, or schedule your preferred day and time.    Personalize with a message or photo.',
+    eGiftCardByMailH2: 'Gift Card by Mail',
+    eGiftCardVendorUS: 'This link will direct you to our partner site operated by CashStar.',
+    giftCardMsg: "Enter a personal message at Checkout and we'll send it along with your Gift Card.",
+    eGiftCardVendorCA: 'This link will direct you to our partner site.',
+    checkGiftCardBalanceMsg: 'Check Gift Card Balance',
+    cardNumberRequired: 'Card Number required',
+    pinNumberRequired: 'PIN required',
+    checkCheckboxRequired: 'Please check the box below: Required'
+  }
+};

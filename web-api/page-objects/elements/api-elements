@@ -1,0 +1,99 @@
+module.exports = {
+  Action: {
+    // C:\Git\uber\CommonOAuthAPI\handlers\Common\API\CrateAPIModule.cs
+    ping: 'ping',
+    sign: 'sign',
+    storelocator: 'storelocator',
+    oavail: 'oavail',
+    savail: 'savail',
+    GetPromotionalCoupon: 'GetPromotionalCoupon',
+
+    // C:\Git\uber\CommonOAuthAPI\handlers\Common\API\AccountAPIModule.cs
+    PidAccountAuthentication: 'PidAccountAuthentication',
+    PidAccountForgotPassword: 'PidAccountForgotPassword',
+    PidRetrieveAccessToken: 'PidRetrieveAccessToken', // QA Testing Only (not in production)
+
+    // C:\Git\uber\CommonOAuthAPI\handlers\Common\API\BrowseAPIModule.cs
+    categories: 'categories',
+    getCategories: 'getCategories',
+    supercategories: 'supercategories',
+    category: 'category',
+    families: 'families',
+    family: 'family',
+    sku: 'sku',
+    gotoguides: 'gotoguides', // Crate Only
+    // Deprecated - coords: 'coords',
+    // Deprecated - recos: 'recos',
+
+    // C:\Git\uber\CommonOAuthAPI\handlers\Common\API\GiftRegistryAPIModule.cs
+    grCategories: 'grCategories', // Crate & CB2 USA Only
+    gr: 'gr', // Crate & CB2 USA Only
+    PidCreateRegistry: 'PidCreateRegistry', // Crate & CB2 USA Only
+    PidUpdateRegistry: 'PidUpdateRegistry', // Crate & CB2 USA Only
+    PidAddRegistryItem: 'PidAddRegistryItem', // Crate & CB2 USA Only
+    PidAddRegistryItems: 'PidAddRegistryItems', // Crate & CB2 USA Only
+    PidUpdateRegistryItem: 'PidUpdateRegistryItem', // Crate & CB2 USA Only
+    PidUpdateRegistryMostWantedItem: 'PidUpdateRegistryMostWantedItem', // Crate & CB2 USA Only
+    PidAccountRegistries: 'PidAccountRegistries', // Crate & CB2 USA Only
+    grgifting: 'grgifting', // Crate USA Only
+    PidUpdateIsGroupGiftItem: 'PidUpdateIsGroupGiftItem', // Crate USA Only
+    PidUpdateGroupGiftName: 'PidUpdateGroupGiftName', // Crate USA Only
+    // Deprecated - grSecurityQuestions: 'grSecurityQuestions',
+
+    // C:\Git\uber\CommonOAuthAPI\handlers\Common\API\SearchAPIModule.cs
+    search: 'search',
+    slisearch: 'slisearch',
+    typeahead: 'typeahead',
+    slicount: 'slicount',
+    slitypeahead: 'slitypeahead'
+  },
+  Parameter: {
+    pid: '&pid=',
+    pidFirst: 'pid=',
+    action: '&action=',
+    actionFirst: 'action=',
+    toJson: '&json=1',
+    toSimple: '&simple=1',
+    isUrlPath: '&isUrlPath=1',
+    canada: '&canada=',
+    itemGroupParam: '&itemGroup=1',
+    showSkus: '&showSkus=1',
+    isModeled: '&isModeled=1',
+    firstGroup: '&firstGroup=1',
+    requestLimit: 'rRequestLimit=',
+    startAfterParam: '&startAfter=',
+    affiliateId: '&affiliateId=',
+    skuParam: '&sku=',
+    categoryId: '&=categoryId',
+    familyId: '&familyId=',
+    upc: '&upc=',
+    isbn: '&isbn=',
+    pib: '&pib=1',
+    swatchId: '&swatchId=1',
+    cid: '&cid=',
+    fid: '&fid='
+  },
+  Output: {
+    json: 'json',
+    xml: 'xml'
+  },
+  SubDomain: {
+    www: 'www',
+    api: 'api'
+  },
+  // TO DO: Move these out and use global
+  Site: {
+    CrateUsa: 'Crate USA',
+    CrateCan: 'Crate CAN',
+    Cb2Usa: 'CB2 USA',
+    Cb2Can: 'CB2 CAN'
+  },
+  htmlObjects: {
+    Pre: '//pre'
+  },
+  // TO DO: Move these out and use global
+  Brand: {
+    Crate: 'crateandbarrel',
+    Cb2: 'cb2'
+  }
+};

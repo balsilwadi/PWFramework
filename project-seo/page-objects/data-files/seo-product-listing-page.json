@@ -1,0 +1,40 @@
+[
+  {
+    "catType": "CBUS_BathTowels",
+    "canonical": "www.crateandbarrel.com/bed-and-bath/bath-towels/1",
+    "robots": "index,follow",
+    "ogSiteName": "Crate&Barrel",
+    "ogUrl": "www.crateandbarrel.com/bed-and-bath/bath-towels/1",
+    "ogType": "website",
+    "fbAdmins": "1769841725"
+  },
+
+  {
+    "catType": "CBCA_BathTowels",
+    "canonical": "www.crateandbarrel.ca/bed-and-bath/bath-towels/1",
+    "robots": "index,follow",
+    "ogSiteName": "Crate and Barrel Canada",
+    "ogUrl": "www.crateandbarrel.ca/bed-and-bath/bath-towels/1",
+    "ogType": "website",
+    "fbAdmins": "1769841725"
+  },
+
+  {
+    "catType": "CB2US_Flatware",
+    "canonical": "www.cb2.com/dining/flatware/1",
+    "robots": "index,follow",
+    "ogSiteName": "CB2",
+    "ogUrl": "www.cb2.com/dining/flatware/1",
+    "ogType": "website",
+    "fbAdmins": "16329660681"
+  },
+  {
+    "catType": "CB2CA_BathLinens",
+    "canonical": "www.cb2.ca/bed-and-bath/bath-linens/1",
+    "robots": "index,follow",
+    "ogSiteName": "CB2 Canada",
+    "ogUrl": "www.cb2.ca/bed-and-bath/bath-linens/1",
+    "ogType": "website",
+    "fbAdmins": "16329660681"
+  }
+]

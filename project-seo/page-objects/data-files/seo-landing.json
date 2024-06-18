@@ -1,0 +1,41 @@
+[
+  {
+    "catType": "CBUS_InteriorDesign",
+    "canonical": "www.crateandbarrel.com/interior-design",
+    "robots": "index,follow",
+    "ogSiteName": "Crate&Barrel",
+    "ogUrl": "www.crateandbarrel.com/interior-design",
+    "ogType": "website",
+    "fbAdmins": "1769841725"
+  },
+
+  {
+    "catType": "CBCA_InteriorDesign",
+    "canonical": "www.crateandbarrel.ca/interior-design",
+    "robots": "index,follow",
+    "ogSiteName": "Crate&Barrel",
+    "ogUrl": "www.crateandbarrel.ca/interior-design",
+    "ogType": "website",
+    "fbAdmins": "1769841725"
+  },
+
+  {
+    "catType": "CB2US_AboutUs",
+    "canonical": "www.cb2.com/about-us/",
+    "robots": "index,follow",
+    "ogSiteName": "CB2",
+    "ogUrl": "www.cb2.com/about-us/",
+    "ogType": "article",
+    "fbAdmins": "16329660681"
+  },
+
+  {
+    "catType": "CB2CA_TradeProgram",
+    "canonical": "www.cb2.ca/trade-program",
+    "robots": "index,follow",
+    "ogSiteName": "CB2 Canada",
+    "ogUrl": "www.cb2.ca/trade-program",
+    "ogType": "website",
+    "fbAdmins": "16329660681"
+  }
+]

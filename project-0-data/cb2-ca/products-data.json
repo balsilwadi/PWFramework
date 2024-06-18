@@ -1,0 +1,37 @@
+{
+  "PLP": {
+    "spategory": [
+      {
+        "name": "Kitchen Storage & Tools",
+        "url": "/dining/kitchen-storage-tools",
+        "type": "PLP"
+      },
+      {
+        "name": "Dining & Kitchen Furniture",
+        "url": "/furniture/dining-room-furniture",
+        "type": "PLP"
+      }
+    ],
+    "category": [
+      {
+        "name": "Kitchen Storage & Organization",
+        "url": "/dining/kitchen-storage/1",
+        "type": "PLP"
+      }
+    ],
+    "wide-plp": [
+      {
+        "name": "Area Rugs",
+        "url": "/rugs/rugs/1",
+        "type": "PLP"
+      }
+    ],
+    "wide-plp-collection": [
+      {
+        "name": "Dinnerware & Flatware",
+        "url": "/dining/dinnerware-flatware",
+        "type": "PLP"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "docker-build",
+      "type": "docker-build",
+      "platform": "node",
+      "dockerBuild": {
+        "context": "${workspaceFolder}",
+        "tag": "qe-automation"
+      }
+    },
+    {
+      "label": "docker-run: shell",
+      "type": "docker-run",
+      "dependsOn": "docker-build",
+      "platform": "node",
+      "dockerRun": {
+        "image": "qe-automation",
+        "containerName": "qe-automation",
+        "customOptions": "-it",
+        "command": "/bin/bash",
+        "remove": false
+      }
+    },
+    {
+      "label": "docker-run: debug",
+      "type": "docker-run",
+      "dependsOn": "docker-build",
+      "platform": "node",
+      "dockerRun": {
+        "image": "qe-automation",
+        "containerName": "qe-automation",
+        "customOptions": "-it",
+        "command": "npm run test -- -p \"Desktop Chrome\" --format @cucumber/pretty-formatter -f json:./reports/cucumber_report.json",
+        "remove": false
+      }
+    }
+  ]
+}

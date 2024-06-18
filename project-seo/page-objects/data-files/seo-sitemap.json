@@ -1,0 +1,59 @@
+{
+  "crateus": [
+    "https://www.crateandbarrel.com/assets/sitemap-registry1.xml",
+    "https://www.crateandbarrel.com/assets/sitemap-generated1.xml",
+    "https://www.crateandbarrel.com/assets/sitemap-landing1.xml",
+    "https://www.crateandbarrel.com/assets/sitemap.xml",
+    "https://www.crateandbarrel.com/assets/sitemap-nla-pdp.xml",
+    "https://www.crateandbarrel.com/assets/sitemap-nla-mdp.xml",
+    "https://www.crateandbarrel.com/assets/sitemap-indexable-filters.xml",
+    "https://www.crateandbarrel.com/assets/sitemap-pdp.xml",
+    "https://www.crateandbarrel.com/assets/sitemap-mpdp.xml",
+    "https://www.crateandbarrel.com/assets/sitemap-plp.xml",
+    "https://www.crateandbarrel.com/assets/sitemap-special-features.xml",
+    "https://www.crateandbarrel.com/assets/sitemap-supercategory-and-spategory.xml",
+    "https://www.crateandbarrel.com/assets/sitemap-shop-by-brand.xml"
+  ],
+
+  "cratecan": [
+    "https://www.crateandbarrel.ca/assets/sitemap-registry1.xml",
+    "https://www.crateandbarrel.ca/assets/sitemap-generated1.xml",
+    "https://www.crateandbarrel.ca/assets/sitemap.xml",
+    "https://www.crateandbarrel.ca/assets/sitemap-nla-pdp.xml",
+    "https://www.crateandbarrel.ca/assets/sitemap-nla-mdp.xml",
+    "https://www.crateandbarrel.ca/assets/sitemap-indexable-filters.xml",
+    "https://www.crateandbarrel.ca/assets/sitemap-pdp.xml",
+    "https://www.crateandbarrel.ca/assets/sitemap-mpdp.xml",
+    "https://www.crateandbarrel.ca/assets/sitemap-plp.xml",
+    "https://www.crateandbarrel.ca/assets/sitemap-special-features.xml",
+    "https://www.crateandbarrel.ca/assets/sitemap-supercategory-and-spategory.xml",
+    "https://www.crateandbarrel.ca/assets/sitemap-shop-by-brand.xml"
+  ],
+
+  "cb2us": [
+    "https://www.cb2.com/assets/sitemap-registry1.xml",
+    "https://www.cb2.com/assets/sitemap-generated1.xml",
+    "https://www.cb2.com/assets/sitemap-landing1.xml",
+    "https://www.cb2.com/assets/sitemap.xml",
+    "https://www.cb2.com/assets/sitemap-nla-pdp.xml",
+    "https://www.cb2.com/assets/sitemap-nla-mdp.xml",
+    "https://www.cb2.com/assets/sitemap-indexable-filters.xml",
+    "https://www.cb2.com/assets/sitemap-pdp.xml",
+    "https://www.cb2.com/assets/sitemap-mpdp.xml",
+    "https://www.cb2.com/assets/sitemap-supercategory-and-spategory.xml",
+    "https://www.cb2.com/assets/sitemap-plp.xml"
+  ],
+
+  "cb2can": [
+    "https://www.cb2.ca/assets/sitemap-registry1.xml",
+    "https://www.cb2.ca/assets/sitemap-generated1.xml",
+    "https://www.cb2.ca/assets/sitemap.xml",
+    "https://www.cb2.ca/assets/sitemap-nla-pdp.xml",
+    "https://www.cb2.ca/assets/sitemap-nla-mdp.xml",
+    "https://www.cb2.ca/assets/sitemap-indexable-filters.xml",
+    "https://www.cb2.ca/assets/sitemap-pdp.xml",
+    "https://www.cb2.ca/assets/sitemap-mpdp.xml",
+    "https://www.cb2.ca/assets/sitemap-supercategory-and-spategory.xml",
+    "https://www.cb2.ca/assets/sitemap-plp.xml"
+  ]
+}
